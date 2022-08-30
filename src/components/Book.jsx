@@ -1,5 +1,7 @@
-export function Book() {
+export function Book(props) {
+
+    
     return (
-        <h3>Livros 1</h3>
+        <h3>{props.title}</h3>
     );
 }

@@ -1,5 +1,6 @@
-
 import { Book } from "./components/Book";
+
+
 
 function App() {
   return (
@@ -9,6 +10,8 @@ function App() {
       <div>
         <Book title="O Senhor dos Anéis" />
         <Book title="O Poderoso Chefão" />
+        <Book title="Carrie, a Estranha" />
+        
       </div>
     </div>
   );

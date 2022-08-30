@@ -1,5 +1,5 @@
 
-import './App.css';
+import { Book } from "./components/Book";
 
 function App() {
   return (
@@ -7,16 +7,13 @@ function App() {
       <h1>Livros</h1>
 
       <div>
-        {/* <ul>
-          <li>Memórias de uma Gueixa</li>
-          <li>O Príncipe</li>
-          <li>Simmarilion</li>
-        </ul> */}
+        <Book title="O Senhor dos Anéis" />
+        <Book title="O Poderoso Chefão" />
       </div>
     </div>
   );
 }
 
-export
+
 
 export default App;

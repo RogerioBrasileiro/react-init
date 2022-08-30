@@ -4,6 +4,10 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
+// const, let, var -- declaraçao de variavel
+//a variavelm root recebe, atraves da classe ReactDOM com a chamada 
+// do metodo creatRoot, um elemento HTML, atraves da referencia documen.getElement('root')
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>

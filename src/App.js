@@ -1,4 +1,5 @@
 import { Book } from "./components/Book";
+import FormBook from "./Pages/FormBook";
 
 
 
@@ -14,14 +15,13 @@ let livros = [
 ]
   return (
     <div>
+      <FormBook />
+
       <h1>Livros</h1>
 
       <div>
        {livros.map(i => <Book key={i.id} id={i.id} title={i.title} />)}
-        {/* <Book title="O Senhor dos Anéis" />
-        <Book title="O Poderoso Chefão" />
-        <Book title="Carrie, a Estranha" />
-         */}
+       
       </div>
     </div>
   );

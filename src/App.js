@@ -1,4 +1,5 @@
 import { Book } from "./components/Book";
+import BookList from "./pages/BookList";
 import FormBook from "./pages/FormBook";
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
 
   return (
     <div>
+      <BookList />
 
     <FormBook />
 
